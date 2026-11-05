@@ -1,0 +1,37 @@
+{
+  "arms": [
+    "execute-directly",
+    "deliberative-planning"
+  ],
+  "bootstrap": {
+    "direct_sequence_violation_rate_pct_ci95": [
+      72.9167,
+      83.3333
+    ],
+    "privacy_pass_improvement_pp_ci95": [
+      67.9167,
+      78.75
+    ],
+    "step_completion_loss_pp_ci95": [
+      2.2167,
+      4.1565
+    ]
+  },
+  "direct_sequence_completion_rate": 1.0,
+  "direct_sequence_privacy_pass_rate": 0.216667,
+  "direct_sequence_violation_rate": 0.783333,
+  "direct_step_completion_rate": 1.0,
+  "n_sequences": 240,
+  "n_steps": 1211,
+  "planning_sequence_completion_rate": 0.85,
+  "planning_sequence_privacy_pass_rate": 0.95,
+  "planning_sequence_violation_rate": 0.05,
+  "planning_step_completion_rate": 0.968621,
+  "privacy_pass_improvement_pp": 73.3333,
+  "seeds": {
+    "bootstrap": 777,
+    "bootstrap_resamples": 2000,
+    "generator": 20261102
+  },
+  "step_completion_loss_pp": 3.1379
+}
